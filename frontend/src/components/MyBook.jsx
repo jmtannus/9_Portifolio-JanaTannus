@@ -14,7 +14,7 @@ function MyBook(props) {
   return (
     <HTMLFlipBook width={600} height={700} showCover="true">
       <Page number={1}>
-        <Cover coverImg={coverImg} title="My Portfolio" />
+        <Cover coverImg={coverImg} title="Meu Portfolio" />
       </Page>
       <Page number={2}>
         <FirstPage />
