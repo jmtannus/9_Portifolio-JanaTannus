@@ -4,7 +4,7 @@ import ServicesBox from "./ServicesBox";
 
 const Services = () => {
   return (
-    <div className="h-full page-shadow bg-white px-10">
+    <div className="h-full page-shadow bg-white p-10">
       {/* Heading */}
       <div className="flex flex-col items-center">
         <h1 className="inline-block text-3xl text-center font-bold mb-3 border-b-2 border-primary pb-1">
