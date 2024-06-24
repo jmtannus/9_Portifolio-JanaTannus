@@ -11,7 +11,7 @@ import Projects from "./pages/Projects/Projects.jsx";
 
 import ProjectImg1 from "../assets/projects/jotjoy-happy-notes.png";
 import ProjectImg2 from "../assets/projects/ecommerce.jpg";
-import ProjectImg3 from "../assets/projects/jotjoy-happy-notes.png";
+import ProjectImg3 from "../assets/projects/playlist-JanaT.png";
 import ProjectImg4 from "../assets/projects/jotjoy-happy-notes.png";
 
 const ProjectData = [
@@ -22,7 +22,7 @@ const ProjectData = [
     previewLink: "https://joyjot-365.netlify.app",
   },
   {
-    name: "JotJoy Happy Notes website",
+    name: "E-commerce website",
     description: "Complete responsive website using ReactJs and Tailwind CSS",
     image: ProjectImg2,
     previewLink: "https://jmt2.netlify.app",

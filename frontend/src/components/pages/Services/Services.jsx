@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import ServicesBox from "./ServicesBox";
 import Heading from "../../HelperComp/Heading";
@@ -8,7 +9,7 @@ const Services = () => {
       {/* Heading */}
       <Heading
         title="Services"
-        subtitle="Html, Css, JavaScript, FrontEnd, Requisitos, Design Gráfico, Vendas"
+        subtitle="Html, Css, JavaScript, ReactJs, FrontEnd, Requirements Analysis, Grafic Design, Art & Photography"
       />
 
       {/* Services Card */}

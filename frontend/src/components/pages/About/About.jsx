@@ -14,10 +14,10 @@ const About = () => {
       {/* Heading */}
       <Heading
         title="About"
-        subtitle="Welcome to my space of creativity and innovation!"
+        subtitle="Discover more about who I am, my skills and my passion for creating innovative solutions."
       />
       {/* Details section */}
-      <div className="mt-10 text-slate-500 ">
+      <div className="mt-12 text-slate-500 text-sm">
         <p>
           I am a versatile professional with a rich combination of skills in
           technology and well-being.
@@ -47,14 +47,40 @@ const About = () => {
         </p>
         {/* social links */}
         <div className="flex space-x-4 mt-10">
-          <MdFacebook className="social-btn" />
-          <AiFillInstagram className="social-btn" />
-          <AiFillGithub className="social-btn" />
-          <AiFillLinkedin className="social-btn" />
+          <a
+            href="https://www.facebook.com/janatannus"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <MdFacebook className="social-btn" />
+          </a>
+
+          <a
+            href="https://www.instagram.com/janamadeiratannus"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillInstagram className="social-btn" />
+          </a>
+
+          <a
+            href="https://github.com/jmtannus"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillGithub className="social-btn" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/janaina-tannus-58b32229/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <AiFillLinkedin className="social-btn" />
+          </a>
         </div>
         {/* button links */}
-        <div className="flex space-x-4 mt-4">
-          <a href="#" className="primary-btn ">
+        <div className="flex space-x-4 mt-10">
+          <a href="/frontend/public/resumeTeixeiraJanaina.pdf" download className="primary-btn">
             Download Resume
           </a>
           <a href="#" className="outline-btn">

@@ -1,4 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
+import PropTypes from "prop-types";
 import ProjectBox from "./ProjectBox.jsx";
 import Heading from "../../HelperComp/Heading.jsx";
 
@@ -16,6 +18,17 @@ const Projects = ({ ProjectData }) => {
       </div>
     </div>
   );
+};
+
+Projects.propTypes = {
+  ProjectData: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number,
+      name: PropTypes.string,
+      description: PropTypes.string,
+      // Add other properties as needed
+    })
+  ).isRequired,
 };
 
 export default Projects;

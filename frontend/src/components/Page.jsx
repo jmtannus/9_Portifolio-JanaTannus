@@ -1,4 +1,5 @@
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
+import PropTypes from 'prop-types';
 
 const Page = forwardRef((props, ref) => {
   return (
@@ -11,5 +12,14 @@ const Page = forwardRef((props, ref) => {
     </div>
   );
 });
+
+// Assigning a displayName to the component
+Page.displayName = 'Page';
+
+// Prop types validation for the Page component
+Page.propTypes = {
+  children: PropTypes.node.isRequired,
+  number: PropTypes.number.isRequired,
+};
 
 export default Page;

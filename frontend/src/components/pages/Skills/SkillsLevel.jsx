@@ -1,4 +1,6 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
+import PropTypes from 'prop-types'; // Step 1: Import PropTypes
 
 const SkillsLevel = ({ skillName, percentage }) => {
   return (
@@ -16,6 +18,12 @@ const SkillsLevel = ({ skillName, percentage }) => {
       </div>
     </div>
   );
+};
+
+// Step 2: Define PropTypes
+SkillsLevel.propTypes = {
+  skillName: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
 };
 
 export default SkillsLevel;
