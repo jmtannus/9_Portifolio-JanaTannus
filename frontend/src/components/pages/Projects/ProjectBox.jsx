@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 const ProjectBox = ({ ProjectData }) => {
   return (
@@ -12,12 +13,20 @@ const ProjectBox = ({ ProjectData }) => {
                 alt=""
                 className="w-full h-full object-cover rounded-xl"
               />
-              
+
               {/* details section */}
-              <div>
-                <h1>{project.name} </h1>
-                <p>{project.description}</p>
-                <a href={project.previwLink}>View Project</a>
+              <div className="pt-3">
+                <h1 className="text-2xl font-semibold">{project.name} </h1>
+                <p className="line-clamp-2 text-gray-500">
+                  {project.description}
+                </p>
+                <a
+                  href={project.previewLink}
+                  target="_blank"
+                  className="primary-btn mt-3"
+                >
+                  View Project
+                </a>
               </div>
             </div>
           );
@@ -25,6 +34,16 @@ const ProjectBox = ({ ProjectData }) => {
       </div>
     </div>
   );
+};
+ProjectBox.propTypes = {
+  ProjectData: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      previewLink: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default ProjectBox;
