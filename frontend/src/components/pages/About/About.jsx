@@ -1,9 +1,10 @@
 import React from "react";
-import { MdFacebook, AiFillInstagram, AiFillGithub, AiFillLinkedin} from 'react-icons';
+import { AiFillGithub, AiFillGitlab, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { MdFacebook } from "react-icons/md";
 
 const About = () => {
   return (
-    <div className="h-full page-shadow bg-white px-10">
+    <div className="h-full page-shadow bg-white p-10">
       {/* Heading */}
       <div className="flex flex-col items-center">
         <h1 className="inline-block text-3xl text-center font-bold mb-3 border-b-2 border-primary pb-1">
@@ -13,7 +14,6 @@ const About = () => {
           Welcome to my space of creativity and innovation!
         </p>
       </div>
-
       {/* Details section */}
       <div className="mt-10 text-slate-500 ">
         <p>
@@ -45,13 +45,16 @@ const About = () => {
         </p>
         {/* social links */}
         <div className="flex space-x-4 mt-10">
-          <MdFacebook className="social-btn" />
-          <AiFillInstagram className="social-btn" />
-          <AiFillGithub className="social-btn" />
-          <AiFillLinkedin className="social-btn" />
+        <MdFacebook className="social-btn"/>
+        <AiFillInstagram className="social-btn"/>
+        <AiFillGithub className="social-btn"/>
+        <AiFillLinkedin className="social-btn"/>          
         </div>
         {/* button links */}
-        <div></div>
+        <div className="flex space-x-4 mt-4">
+          <a href="#" className="primary-btn ">Download Resume</a>
+          <a href="#" className="outline-btn">Contact</a>
+        </div>
       </div>
     </div>
   );
