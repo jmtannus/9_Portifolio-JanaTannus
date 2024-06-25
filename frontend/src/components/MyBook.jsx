@@ -40,7 +40,7 @@ const ProjectData2 = [
     name: "Tribute Page",
     description: "Touching tribute page using HTML and CSS, research tools and careful writing.",
     image: ProjectImg4,
-    previewLink: "https://joyjot-365.netlify.app",
+    previewLink: "https://tribute-page-to-daddy.vercel.app",
   },
 ];
 
