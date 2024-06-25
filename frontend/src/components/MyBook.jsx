@@ -9,21 +9,21 @@ import Services from "./pages/Services/Services";
 import About from "./pages/About/About";
 import Projects from "./pages/Projects/Projects.jsx";
 
-import ProjectImg1 from "../assets/projects/jotjoy-happy-notes.png";
+import ProjectImg1 from "../assets/projects/jotjoy-happy-notes1.jpg";
 import ProjectImg2 from "../assets/projects/ecommerce.jpg";
 import ProjectImg3 from "../assets/projects/playlist-JanaT.png";
-import ProjectImg4 from "../assets/projects/jotjoy-happy-notes.png";
+import ProjectImg4 from "../assets/projects/tribute-page.jpg";
 
 const ProjectData = [
   {
     name: "JotJoy Happy Notes website",
-    description: "Complete responsive website using ReactJs and Tailwind CSS",
+    description: "Complete responsive website using JavaScript, ReactJs and Tailwind CSS",
     image: ProjectImg1,
     previewLink: "https://joyjot-365.netlify.app",
   },
   {
     name: "E-commerce website",
-    description: "Complete responsive website using ReactJs and Tailwind CSS",
+    description: "Complete responsive website using JavaScript, ReactJs and Tailwind CSS",
     image: ProjectImg2,
     previewLink: "https://jmt2.netlify.app",
   },
@@ -37,8 +37,8 @@ const ProjectData2 = [
     previewLink: "https://music-player-jt.vercel.app/",
   },
   {
-    name: "JotJoy Happy Notes website",
-    description: "Complete responsive website using ReactJs and Tailwind CSS",
+    name: "Tribute Page",
+    description: "Touching tribute page using HTML and CSS, research tools and careful writing.",
     image: ProjectImg4,
     previewLink: "https://joyjot-365.netlify.app",
   },

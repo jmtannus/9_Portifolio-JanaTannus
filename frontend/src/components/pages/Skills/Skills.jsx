@@ -18,11 +18,14 @@ const Skills = () => {
           </div>
         </div>
         {/* skills sections */}
-        <div className="space-y-8">
+        <div className="space-y-7">
+          <SkillsLevel skillName="Design" percentage={"90%"} />
           <SkillsLevel skillName="HTML" percentage={"90%"} />
           <SkillsLevel skillName="CSS" percentage={"75%"} />
           <SkillsLevel skillName="JavaScript" percentage={"60%"} />
-          <SkillsLevel skillName="Figma" percentage={"40%"} />
+          <SkillsLevel skillName="ReactJS" percentage={"70%"} />
+          <SkillsLevel skillName="Figma" percentage={"50%"} />
+          <SkillsLevel skillName="Requirements Analysis" percentage={"89%"} />
         </div>
       </div>
     </div>
